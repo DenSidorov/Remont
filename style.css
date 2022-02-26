@@ -1,0 +1,45 @@
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Roboto Slab', serif;
+}
+
+.container 
+{
+    background-image: url('/images/3.jpg');
+    background-repeat: repeat;
+    background-size: 100% ;
+}
+
+.jumbotron
+{
+    /* background: none; */
+    text-align: center;
+    color: black;
+}
+ img {
+     height: 300px;
+ }
+
+.about {
+    display: flex;
+}
+
+.about-text {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .about {
+        text-align: center;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 2vw;    
+}
