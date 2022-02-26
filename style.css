@@ -37,9 +37,22 @@ h1, h2, h3, h4, h5, h6
     }
 }
 
+@media screen {
+    .about {
+        text-align: center;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        margin: auto;
+    }
+}
+
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-template-rows: auto;
-    grid-gap: 2vw;    
+    grid-gap: 2vw;
+    margin: auto;
 }
