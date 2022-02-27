@@ -1,58 +1,62 @@
-h1, h2, h3, h4, h5, h6
-{
-    font-family: 'Roboto Slab', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
 }
 
 .container {
-    background-image: url('https://github.com/DenSidorov/Remont/tree/main/images/3.jpg');
-    background-repeat: repeat;
-    background-size: 100% ;
+  background-image: url("https://github.com/DenSidorov/Remont/tree/main/images/3.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
 }
 
 .jumbotron {
-    background: none;
-    text-align: center;
-    color: black;
+  background: none;
+  text-align: center;
+  color: black;
 }
 
 img {
-    height: 300px;
+  height: 300px;
 }
 
 .about {
-    display: flex;
+  display: flex;
 }
 
 .about-text {
-    text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
-    .about {
-        text-align: center;
-        display: block;
-        padding: 0;
-        margin: 0;
-    }
+  .about {
+    text-align: center;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media screen {
-    .about {
-        text-align: center;
-        display: block;
-        padding: 0;
-        margin: 0;
-    }
-    
-    img {
-        margin: auto;
-    }
+  .about {
+    text-align: center;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  img {
+    margin: auto;
+  }
 }
 
 .grid-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    grid-template-rows: auto;
-    grid-gap: 2vw;
-    margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 2vw;
+  margin: auto;
 }
