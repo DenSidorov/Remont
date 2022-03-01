@@ -40,7 +40,7 @@ img {
   }
 }
 
-@media screen {
+/* @media screen {
   .about {
     text-align: center;
     display: block;
@@ -51,7 +51,7 @@ img {
   img {
     margin: auto;
   }
-}
+} */
 
 .grid-wrapper {
   display: grid;
