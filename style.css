@@ -22,8 +22,16 @@ img {
   height: 300px;
 }
 
+video {
+  width: 400px;
+  height: 400px;
+}
+
 ul {
   font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: bold;
+  list-style-image: url(images/Actions-list-add-icon.png);
 }
 
 .about-text {
