@@ -1,9 +1,6 @@
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: "Roboto Slab", serif;
 }
 
@@ -27,10 +24,6 @@ ul {
   font-family: "Roboto Slab", serif;
 }
 
-.about {
-  display: flex;
-}
-
 .about-text {
   text-align: center;
 }
@@ -40,7 +33,7 @@ ul {
     text-align: center;
     display: block;
     padding: 0;
-    margin: 0;
+    margin: auto;
   }
 }
 
